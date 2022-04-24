@@ -1,0 +1,62 @@
+.wrapper{
+    background-color:rgba(var(--clr-black));
+    width:100vw;
+    height:100vh;
+    display:flex;
+    justify-content:center;
+    align-items: center;
+}
+
+.form-container{
+    background-color:rgba(var(--clr-white));
+    box-shadow: 0 0 0.3em rgba(var(--clr-white));
+    width:20%;
+    height:50%;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    border-radius:0.25rem;
+    position:relative;
+}
+
+.form-login{
+    text-align: center;
+    height:50%;
+}
+.form-login input[type=text], .form-login input[type=password]{
+    background-color:rgba(var(--clr-black));
+    color:rgba(var(--clr-white));
+    width:80%;
+    height:15%;
+    margin-top:1.5em;
+    border-radius:0.25rem;
+    text-align: center;
+}
+.form-login input[type="submit"]{
+    background-color:rgb(var(--clr-red));
+    color:rgba(var(--clr-white));
+    width:25%;
+    height:15%;
+    margin-top:3em;
+    font-weight: bold;
+    border:1.5px solid grey;
+    border-radius:0.25rem;
+    box-shadow: 0 0.2 0.2em rgba(var(--clr-red));
+    cursor: pointer;
+}
+.form-login input[type="submit"]:hover{
+    transition: background-color 0.5s;
+    background-color:rgb(var(--clr-black));
+}
+.form-login input[type=text]::placeholder, .form-login input[type=password]::placeholder{
+    color:rgba(var(--clr-white));
+ 
+}
+.form-container a{
+    color:rgba(var(--clr-black));
+    margin-top:1rem;
+    display:block;   
+}
+.form-container a:hover{
+    font-weight: bold;
+}

@@ -1,0 +1,21 @@
+body{
+    --clr-black:33,33,33;
+    --clr-yellow:235,235,94;
+    --clr-white:255,255,255,0.8;
+    --clr-red:111, 34, 50;
+    background-color: rgba(var(--clr-black));
+}
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+.error{
+    color:red;
+}
+.correct{
+    color:green;
+}
+a{
+    text-decoration: none;
+}
